@@ -8,9 +8,11 @@ function SidebarItem() {
   const isOpen = useSelector((state) => state.toggle.sidebar);
   const navList = [
     { id: 1, name: "خانه", href: "/" },
-    { id: 2, name: "لیست کاربران", href: "/dashboard/user-manage" },
-    { id: 3, name: "لسیت مقالات", href: "/dashboard/blogs-mange" },
-    { id: 4, name: " اضافه کردن مقاله", href: "/dashboard/blogs-add" },
+    { id: 2, name: "پروفایل", href: "/profile" },
+    { id: 3, name: "داشبورد", href: "/dashboard" },
+    { id: 4, name: "لیست کاربران", href: "/dashboard/user-manage" },
+    { id: 5, name: "لسیت مقالات", href: "/dashboard/blogs-mange" },
+    { id: 6, name: " اضافه کردن مقاله", href: "/dashboard/blogs-add" },
   ];
   return (
     <div
